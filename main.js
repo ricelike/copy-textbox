@@ -9,7 +9,7 @@ var i = 4;
         var input_data = document.createElement("input");
         input_data.type = "text";
         input_data.id = "textbox" + i;
-        input_data.placeholder = "テキスト" + i;
+        input_data.placeholder = "テキスト";
 
         var button_data = document.createElement("button");
 
@@ -20,7 +20,7 @@ var i = 4;
           };
         })(i);
 
-        button_data.textContent = "コピー" + i;
+        button_data.textContent = "コピー";
 
         div_data.appendChild(input_data);
         div_data.appendChild(button_data);
