@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>テキストボックスとコピー</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+  </head>
+  <body>
+    <div id="btn-parent">
+      <button id="append-btn" onclick="addForm()">append-textbox</button>
+    </div>
+    <div id="container">
+      <div class="textbox" id="text-parent1">
+        <input type="text" id="textbox1" placeholder="テキスト1" />
+        <button onclick="copyText('textbox1')">コピー1</button>
+      </div>
+      <div class="textbox" id="text-parent2">
+        <input type="text" id="textbox2" placeholder="テキスト2" />
+        <button onclick="copyText('textbox2')">コピー2</button>
+      </div>
+      <div class="textbox" id="text-parent3">
+        <input type="text" id="textbox3" placeholder="テキスト3" />
+        <button onclick="copyText('textbox3')">コピー3</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
